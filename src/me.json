@@ -1,0 +1,22 @@
+{
+    "displayName": "Pavan Bagwe",
+    "email": "pavanbagwe16@gmail.com",
+    "emailVerified": true,
+    "isAnonymous": false,
+    "metadata": {
+        "creationTime": 1704967891031,
+        "lastSignInTime": 1704967891032
+    },
+    "multiFactor": {
+        "enrolledFactors": [Array
+        ]
+    },
+    "phoneNumber": null,
+    "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocJTb_xgLLP_Hir4JSLj1xyfQ8KEHxOJb7rsFSIFyjx-2tlQ=s96-c",
+    "providerData": [
+        [Object]
+    ],
+    "providerId": "firebase",
+    "tenantId": null,
+    "uid": "WMRAKWnw8MhIo2qb9sJQPeheiE82"
+}

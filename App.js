@@ -33,10 +33,15 @@ function MyTabs() {
         ),
         headerRight:()=>(
           <View style={{marginRight:10}}>
-            <Text style={{color:"black",fontSize:20,fontWeight:800}} >Technotsav 2023</Text>
+            <Text style={{color:"#00adb5",fontSize:20,fontWeight:800}} >Technotsav 2024</Text>
           </View>
         ),
+          tabBarStyle:{backgroundColor:"#222831"},
+          headerStyle:{backgroundColor:"#222831"},
+          headerTintColor:"#ffebcd",
+
       }}
+      
       />
       <Tab.Screen name="Events" component={Schedule}
       options={{
@@ -45,9 +50,12 @@ function MyTabs() {
         ),
         headerRight:()=>(
           <View style={{marginRight:10}}>
-            <Text style={{color:"black",fontSize:20,fontWeight:800}} >Technotsav 2023</Text>
+            <Text style={{color:"#00adb5",fontSize:20,fontWeight:800}} >Technotsav 2024</Text>
           </View>
         ),
+        tabBarStyle:{backgroundColor:"#222831"},
+        headerStyle:{backgroundColor:"#222831"},
+        headerTintColor:"#ffebcd",
       }}
     />
     <Tab.Screen name="Account" 
@@ -65,6 +73,9 @@ function MyTabs() {
             <Image source={{ uri: profile }} style={{ width: 30, height: 30, borderRadius: 15 }} />
           </View>
         ),
+        tabBarStyle:{backgroundColor:"#222831"},
+        headerStyle:{backgroundColor:"#222831"},
+        headerTintColor:"#ffebcd",
       }}
     >
       {()=><Me profile={profile} setProfile={setProfile} users={username} setUser={setUsername} />}

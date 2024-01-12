@@ -53,7 +53,7 @@ const Me = ({ profile, setUser, setProfile, users }) => {
         <>
             <View style={styles.screen}>
                 <View style={{ backgroundColor: "rgb(156, 182, 195)", marginBottom: 20, borderRadius: 10 }} >
-                    <Text style={{ color: "black", fontSize: 20, padding: 10 }}> Visitor </Text>
+                    <Text style={{ color: "#ffff", fontSize: 20, padding: 10 }}> Visitor </Text>
                 </View>
                 <Image source={{ uri: profile }} style={styles.profile} />
                 <Text style={styles.title}>{users}</Text>
@@ -74,7 +74,7 @@ const Me = ({ profile, setUser, setProfile, users }) => {
                     <>
                         <View style={{
                             borderWidth: 1,
-                            borderBlockColor: "black",
+                            borderBlockColor: "#00adb5",
                             padding: 15,
                             borderRadius: 10
                         }}>
@@ -85,6 +85,8 @@ const Me = ({ profile, setUser, setProfile, users }) => {
                                 // logoSize={80}
                                 size={250}
                                 logoBorderRadius={20}
+                                backgroundColor="#222831"
+                                color="#00adb5"
                                
                             />
                         </View>
@@ -102,19 +104,20 @@ const styles = StyleSheet.create({
         display: 'flex',
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        backgroundColor:"#393e46"
     },
 
     title: {
         fontSize: 25,
         // marginBottom: 30,
-        color: "black",
+        color: "#00adb5",
         margin: 15
     },
     titleEmail: {
         fontSize: 20,
         // marginBottom: 30,
-        color: "black",
+        color: "#00adb5",
         marginBottom: 50
     },
     profile: {
